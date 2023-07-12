@@ -6,7 +6,41 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
+    .flag{
+      background-color: rgb(206, 17, 38);
+      width: 900px;
+      height: 600px;
+      position: relative;
+    }
     
+    .flag >div{
+      background-color: rgb(0, 40, 104);
+      height: 300px;
+      width: 100%;
+      position: absolute;
+      top: 150px;
+    }
+    .flag >div > div{
+      text-align: center;
+      background-color: white;
+      color: black;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: relative;
+      top: 50px;
+      left: 350px;
+    }
+    p{margin: 0px;
+    font-size: 5rem;
+    text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+    .flag >p{
+      color: white;
+    }
+
   </style>
 </head>
 
@@ -23,9 +57,9 @@ https://appbrewery.github.io/flag-of-laos/
 <body>
   <div class="flag">
     <p>The Flag</p>
-    <div>
-      <div>
-        <p>of Laos</p>
+    <div class="blue">
+      <div class="laos">
+        <p id="laos_inner">of Laos</p>
       </div>
     </div>
   </div>
