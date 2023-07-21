@@ -13,13 +13,20 @@
     .container {
       color: white;
       border: 5px solid gold;
-      display: inline-flex;
-      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 70vh;`
+      align-items:center;
+      align-content: center;
+      
+      
 
     }
 
     .container>* {
       flex-basis: 5rem;
+      
 
 
     }
@@ -31,10 +38,13 @@ children of the .container class.
 
     .red {
       background-color: #eb4d4b;
+      order: 3;
+      
     }
 
     .orange {
       background-color: #f0932b;
+      order: 2;
     }
 
     .yellow {
