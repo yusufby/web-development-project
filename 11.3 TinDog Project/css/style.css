@@ -26,3 +26,22 @@
   height: 100px;
   border-radius: 50%;
 }
+.d-block{
+  box-sizing: initial;
+}
+
+.btn-lg{
+  color: white;
+  border-color: white;
+}
+
+#deneme :hover{
+  color: black;
+  background-color: black;
+}
+.text-body-emphasis ,.mx-auto{
+  text-align: center;
+}
+.mt-5{ 
+ text-align: center;
+}
