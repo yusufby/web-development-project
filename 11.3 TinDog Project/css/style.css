@@ -1,3 +1,8 @@
+:root {
+--blue:#1e90ff;
+--red:red;
+}
+
 .gradient-background {
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
@@ -28,7 +33,7 @@
 }
 
 .btn-lg{
-  color: white;
+ color: var(--blue);
   border-color: white;
 }
 
