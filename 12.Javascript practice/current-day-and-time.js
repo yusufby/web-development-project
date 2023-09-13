@@ -18,7 +18,6 @@ function time(){
    
    }
    time();
-
    var day=new Date();
    var day=day.getDay();
    var dayList=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
